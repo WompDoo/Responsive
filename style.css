@@ -1,0 +1,115 @@
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    background-image: url(taust.jpg);
+    font-size: 12pt;
+    font-family: 'Times New Roman';
+    position: relative;
+
+}
+
+#header {
+    margin: auto;
+}
+
+#title {
+    font-style: italic;
+}
+
+#moto {
+    font-size: 1.5em;
+}
+
+nav {
+    font-style: italic;
+    display: block;
+}
+
+hr {
+    width: 100%;
+    height: 2px;
+}
+
+nav a {
+    text-decoration: underline;
+    margin-left: 15px;
+
+}
+
+#main-container {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+
+    /*margin-left: 2%;*/
+}
+
+.box-elemnt {
+
+    display: inline-table;
+}
+
+#pic {
+
+    width: 324px;
+    height: 337px;
+    background-repeat: no-repeat;
+
+    -moz-transition: width .5s ease-in-out, left .5s ease-in-out;
+    -webkit-transition: width .5s ease-in-out, left .5s ease-in-out;
+    -moz-transition: width .5s ease-in-out, left .5s ease-in-out;
+    -o-transition: width .5s ease-in-out, left .5s ease-in-out;
+    transition: width .5s ease-in-out, left .5s ease-in-out;
+}
+
+#content {
+    display: inline-block;
+    /*border: solid red;*/
+    padding: 2px 2px 2px 2px;
+    width: 812px;
+    height: 363px;
+    text-align: left;
+
+}
+
+#text {
+    margin: 2px;
+
+    width: 454px;
+    height: 327px;
+
+}
+
+@media (max-width: 465px) {
+
+    #text {
+        width: 90%;
+        height: 60%;
+    }
+
+    nav a {
+
+        margin-left: 1%;
+
+    }
+
+    #header {
+        width: 90%;
+    }
+
+    #pic {
+        width: 240px;
+        height: 240px;
+    }
+}
+
+@media (max-width: 830px) {
+    #content {
+        width: 99%;
+        height: 40%;
+
+    }
+}
